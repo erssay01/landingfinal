@@ -1,0 +1,31 @@
+.cards, .portfolio-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.card, .portfolio-card {
+  flex-basis: 250px;
+  flex-grow: 1;
+  margin: 10px;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.card, .portfolio-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card img, .portfolio-card img {
+  width: 100%;
+  height: auto;
+}
+
+.card-content {
+  flex: 1;
+}

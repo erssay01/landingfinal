@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css?family=Lora:400,700|Roboto:300,400,700");
+@import url("components/avatar.css");
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/card.css");
+@import url("components/navbar.css");
+
+/* general */
+body {
+  font-family: 'Lora', serif;
+  font-size: 18px;
+  margin: 0px;
+  color: white;
+  background-color: #343a40;
+}
+body, ul {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box; 
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  overflow-x: auto; 
+  white-space: nowrap; 
+}
+
+.navbar ul li {
+  margin-right: 40px;
+}
+
+.navbar ul li a {
+  color: #f4f6fc;
+}
+
+.navbar ul li a:hover {
+  color: #f4f6fc;
+  background-color: #0000ff;
+  transition: color 0.3s, background-color 0.3s;
+}
+
+.logo-item {
+  margin-left: auto;
+}
+.logo-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.about {
+  text-align: center;
+  color: white;
+}
+#about p {
+  text-align: center;
+}
+#contact p {
+  text-align: center;
+}
+
+.event {
+  text-align: center; 
+  color: white; 
+}
+footer {
+  background-color: #343a40;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  border-top: 1px solid #f8f9fa;
+  }
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+.social-media li {
+  margin: 0 10px;
+}
+
+.social-media a {
+  color: white;
+  font-size: 20px;
+}
